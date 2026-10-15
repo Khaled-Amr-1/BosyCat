@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=BosyCat
+Comment=eBPF Network Traffic Monitor
+Exec=/opt/BosyCat/BosyCatUI
+Icon=bosycat
+Terminal=false
+Type=Application
+Categories=Network;Utility;System;
+StartupWMClass=BosyCatUI

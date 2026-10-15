@@ -1,0 +1,3 @@
+#!/bin/bash
+systemctl stop bosycat.service || true
+systemctl disable bosycat.service || true

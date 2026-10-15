@@ -1,0 +1,30 @@
+# Binaries & Compiled Executables
+bosycat
+bosycat-tracker
+BosyCatUI
+*.o
+*.so
+
+# Packages
+*.rpm
+*.deb
+*.tar.gz
+
+# PyInstaller & Python build artifacts
+build/
+dist/
+__pycache__/
+*.pyc
+
+# RPM build working directories & outputs
+build_pkg/rpm/BUILD/
+build_pkg/rpm/BUILDROOT/
+build_pkg/rpm/RPMS/
+build_pkg/rpm/SRPMS/
+build_pkg/rpm/SOURCES/*.tar.gz
+
+# Binaries copied into package staging areas
+build_pkg/deb/opt/BosyCat/bosycat-tracker
+build_pkg/deb/opt/BosyCat/BosyCatUI
+build_pkg/rpm/SOURCES/*/opt/BosyCat/bosycat-tracker
+build_pkg/rpm/SOURCES/*/opt/BosyCat/BosyCatUI

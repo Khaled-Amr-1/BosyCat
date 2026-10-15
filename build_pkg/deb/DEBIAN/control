@@ -1,0 +1,7 @@
+Package: bosycat
+Version: 1.0.0
+Section: net
+Priority: optional
+Architecture: amd64
+Maintainer: Developer
+Description: BosyCat Network Traffic Monitor using eBPF
